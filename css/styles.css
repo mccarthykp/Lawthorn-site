@@ -229,6 +229,7 @@ main {
     color: #fff;
     padding: .9rem 1.75rem;
     margin-top: 1rem;
+    font-size: .9rem;
 }
 
 .app-description button:hover {
