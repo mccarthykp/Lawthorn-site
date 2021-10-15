@@ -108,10 +108,11 @@ main {
     outline: none;
 }
 
-.hero input:focus {
+/* doesn't work well on mobile */
+/* .hero input:focus {
     outline: rgba(0, 255, 170, 0.836) 1px solid;
     outline-offset: -1px;
-}
+} */
 
 .hero button {
     border: none;
