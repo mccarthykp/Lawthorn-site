@@ -237,11 +237,11 @@ main {
 }
 
 .solutions ul {
-    position: relative;
     margin: 0 auto;
 }
 
 .solutions ul li {
+    position: relative;
     background-color: rgb(20, 20, 20);
     border-radius: 25px;
     color: #fff;
