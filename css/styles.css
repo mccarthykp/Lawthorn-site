@@ -52,6 +52,12 @@ nav button:hover {
     cursor: pointer;
 }
 
+nav button a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
 nav p a {
     color: #000;
     text-decoration: none;
@@ -197,6 +203,7 @@ main {
     width: 80%;
     justify-content: space-between;
     margin: 10rem auto;
+    scroll-margin-top: 15rem;
 }
 
 .app-description {
@@ -213,6 +220,20 @@ main {
 .app-description p {
     color: rgb(87, 87, 87);
     line-height: 1.5rem;
+}
+
+.app-description button {
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 60, 255, 0.7);
+    color: #fff;
+    padding: .9rem 1.75rem;
+    margin-top: 1rem;
+}
+
+.app-description button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 60, 255, 0.75);
 }
 
 .app-img {
@@ -312,7 +333,7 @@ main {
     display: flex;
     flex-direction: row;
     width: 80%;
-    margin: 0 auto;
+    margin: 20rem auto;
     padding-top: 10rem;
     justify-content: space-between;
 }
@@ -414,7 +435,7 @@ main {
     }
 
     .research {
-        padding-bottom: 20rem;
+        padding-bottom: 16rem;
     }
 
     .research-content {
