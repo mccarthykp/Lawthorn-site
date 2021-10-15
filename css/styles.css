@@ -10,6 +10,10 @@ body {
     overscroll-behavior-y: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Navbar ~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~ */
 
 nav {
@@ -21,7 +25,16 @@ nav {
     padding: 1.75rem 0 1.75rem 0;
     position: fixed;
     width: 100%;
+    transition: all 0.4s linear;
     z-index: 1;
+}
+
+#nav.shadow {
+    box-shadow: rgba(60, 64, 67, 0.1) 0px 1px 12px 0px;
+}
+
+.add-shadow {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px, 1px, 2px, 0px;
 }
 
 nav p {
@@ -79,6 +92,7 @@ main {
     height: 100vh;
     margin: 5rem auto 0;
     justify-content: center;
+    scroll-margin-top: 5rem;
 }
 
 .hero h1 {
@@ -139,6 +153,7 @@ main {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    scroll-margin-top: 6.5rem;
 }
 
 .dashboard-bg {
@@ -221,6 +236,7 @@ main {
     display: flex;
     flex-direction: column;
     margin: 0 auto 10rem;
+    scroll-margin-top: 10rem;
 }
 
 .solutions-content {
