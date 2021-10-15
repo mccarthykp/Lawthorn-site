@@ -297,7 +297,7 @@ main {
     display: flex;
     flex-direction: row;
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
     padding-top: 10rem;
     justify-content: space-between;
 }
@@ -375,7 +375,7 @@ main {
     }
 
     .solutions {
-        margin: 0 auto 10rem;
+        margin: 0 auto;
         width: 100%;
     }
 
@@ -396,16 +396,19 @@ main {
         width: 85%;
     }
 
+    .research {
+        padding-bottom: 5rem;
+    }
+
     .research-content {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-bottom: 15rem;
     }
 
     .research-right {
         text-align: center;
-        margin-top: 1rem;
+        margin: 1rem auto;
         width: 80%;
     }
 }
