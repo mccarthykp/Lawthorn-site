@@ -10,10 +10,6 @@ body {
     overscroll-behavior-y: none;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 /* Navbar ~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~ */
 
 nav {
