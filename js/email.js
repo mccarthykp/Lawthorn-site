@@ -1,13 +1,22 @@
 function validate() {
     const mail = document.getElementById('email').value;
-
     const regx = /^([a-zA-Z0-9\._]+)@([a-zA-Z0-9])+.([a-z]+)(.[a-z]+)?$/;
 
     if (regx.test(mail)) {
-        alert('You have provided a valid email address.');
+        alert('Thanks! You have provided a valid email address.');
+        saveToFirebase(mail);
         return true;
     } else {
-        alert('You have provided an invalid email address.')
+        alert('Please provide a valid email address.')
         return false;
     }
+}
+
+
+function saveToFirebase(email) {
+    var emailObject = {
+        email: email
+    };
+
+    firebase.database().ref('subscription-entries').push().set(emailObject);
 }
