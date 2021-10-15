@@ -396,7 +396,7 @@ main {
     }
 
     .solutions h1 {
-        font-size: 1.9rem;
+        font-size: 1.75rem;
     }
 
     .solutions ul li {
@@ -410,10 +410,11 @@ main {
 
     .solutions p {
         width: 85%;
+        text-align: left;
     }
 
     .research {
-        padding-bottom: 5rem;
+        padding-bottom: 20rem;
     }
 
     .research-content {
@@ -422,8 +423,12 @@ main {
         width: 100%;
     }
 
+    .research-left {
+        width: 80%;
+        text-align: left;
+    }
+
     .research-right {
-        text-align: center;
         margin: 1rem auto;
         width: 80%;
     }
