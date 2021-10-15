@@ -186,7 +186,8 @@ main {
 
 .dashboard-img img {
     height: auto;
-    width: 30rem;
+    width: 40rem;
+    border-radius: 15px;
 }
 
 .mobile-app {
@@ -368,7 +369,7 @@ main {
     }
 
     .dashboard-img img {
-        width: 15rem;
+        width: 20rem;
     }
 
     .mobile-app {

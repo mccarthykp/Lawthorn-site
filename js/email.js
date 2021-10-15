@@ -14,7 +14,7 @@ function validate() {
 
 
 function saveToFirebase(email) {
-    var emailObject = {
+    let emailObject = {
         email: email
     };
 
