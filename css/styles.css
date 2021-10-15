@@ -320,7 +320,7 @@ main {
 
 /* Media Queries for Responsive Layout ~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~ */
 
-@media (max-width: 800px) {
+@media (max-width: 780px) {
     nav {
         padding: 1rem 0 1rem 0;
     }
