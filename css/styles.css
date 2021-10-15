@@ -320,6 +320,10 @@ main {
 /* Media Queries for Responsive Layout ~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~ */
 
 @media (max-width: 800px) {
+    nav {
+        padding: 1rem 0 1rem 0;
+    }
+
     nav ul {
         display: none;
     }
@@ -364,7 +368,7 @@ main {
     }
 
     .solutions {
-        margin: 0 auto 20rem;
+        margin: 0 auto 40rem;
         width: 100%;
     }
 
